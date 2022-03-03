@@ -1,0 +1,151 @@
+<header>
+  <nav
+    class="navbar navbar-expand-lg navbar-light waves-light"
+    style="z-index: 2000"
+  >
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarRightAlignExample"
+        aria-controls="navbarRightAlignExample"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+        <!-- Left links -->
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white nav-title" [routerLink]="['/Login']">
+              Iniciar sesión
+            </a>
+          </li>
+          <!-- Navbar dropdown -->
+          <li class="nav-item">
+            <a class="nav-link text-white nav-title" [routerLink]="['/Register']">
+              Registrarse
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div
+    id="introCarousel"
+    class="carousel slide carousel-fade shadow-2-strong"
+    data-mdb-ride="carousel"
+  >
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li
+        data-mdb-target="#introCarousel"
+        data-mdb-slide-to="0"
+        class="active"
+      ></li>
+      <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
+      <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+    </ol>
+
+    <!-- Inner -->
+    <div class="carousel-inner">
+      <!-- Single item -->
+      <div class="carousel-item active">
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item">
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item">
+      </div>
+    </div>
+    <!-- Inner -->
+
+    <!-- Controls -->
+    <a
+      class="carousel-control-prev"
+      href="#introCarousel"
+      role="button"
+      data-mdb-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a
+      class="carousel-control-next"
+      href="#introCarousel"
+      role="button"
+      data-mdb-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- Carousel wrapper -->
+</header>
+
+
+<section id="about" class="py-5">
+
+  <div class="container-fluid g-0">
+
+    <div class="row row-cols-1 row-cols-md-2 g-0">
+
+      <div class="col order-md-first d-flex align-items-center">
+        <div class="p-5 lh-sm fw-normal wow animate__bounceInUp">
+          <h3 class="mb-2 text-lowercase fw-bold text-center wow animate__bounceInUp">QUIENES SOMOS</h3>
+          <p class="text-center">Lorem ipsum dolor sit amet. Aut
+            quasi quaerat quo nulla enim sit voluptas maiores et
+            obcaecati maxime.
+            Et quia quae non pariatur optio sit.Lorem ipsum dolor sit amet. Aut
+            quasi quaerat quo nulla enim sit voluptas maiores et
+            obcaecati maxime.
+            Et quia quae non pariatur optio staticLorem ipsum dolor sit amet. Aut
+            quasi quaerat quo nulla enim sit voluptas maiores et
+            obcaecati maxime.
+            Et quia quae non pariatur optio sit. </p>
+        </div>
+      </div>
+
+      <div class="col order-first wow animate__bounceInUp">
+        <img
+          src="../../../assets/images/quienes-somos.png" width="670">
+      </div>
+
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-0">
+
+      <div class="col">
+        <img src="../../../assets/images/Servicios.png" alt="" class="img-fluid wow animate__bounceInUp">
+      </div>
+
+      <div class="col d-flex align-items-center">
+        <div class="p-5 lh-sm fw-normal">
+          <h3 class="mb-2 text-lowercase fw-bold text-center">SERVICIOS</h3>
+          <p class="text-center">Lorem ipsum dolor sit amet. Aut quasi quaerat quo nulla enim sit voluptas maiores et obcaecati maxime.
+            Et quia quae non pariatur optio sit explicabo quae qui obcaecati galisum sed nostrum soluta.
+            Lorem ipsum dolor sit amet. Aut quasi quaerat quo nulla enim sit voluptas maiores et obcaecati maxime.
+            Et quia quae non pariatur optio sit explicabo quae qui obcaecati galisum sed nostrum soluta.
+            Lorem ipsum dolor sit amet. Aut quasi quaerat quo nulla enim sit voluptas maiores et obcaecati maxime.
+            Et quia quae non pariatur optio sit explicabo quae qui obcaecati galisum sed nostrum soluta.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<app-footer></app-footer>

@@ -1,0 +1,43 @@
+<div class="container-fluid p-0 m-0">
+  <div class="bg-image h-100">
+
+    <img src="../../../assets/images/fondo-register.jpg" class="img-login" alt="Sample" />
+
+    <div class="mask">
+      <div class="d-flex justify-content-center align-items-center h-100">
+
+        <div class="p-5 containerForm">
+
+          <header class="mb-4">
+            <h4 class="mb-3 p-0 text-white text-center font-weight-bold text-uppercase">Iniciar sesión</h4>
+          </header>
+
+          <form class="formulario" class="d-flex flex-column align-content-around ">
+
+            <div class="form-outline my-3">
+              <input id="email" type="email" formControlName="email" class="form-control form-control-lg text-white" autocomplete="off"/>
+              <label for="email" class="form-label"><span class="label-text  text-white font-weight-normal">Correo Electronico</span></label>
+            </div>
+
+            <div class="form-outline my-3">
+              <input id="password" type="password" formControlName="password" class="form-control form-control-lg text-white" autocomplete="off"/>
+              <label for="password" class="form-label"><span class="label-text  text-white font-weight-normal">Contraseña</span></label>
+            </div>
+
+            <div class=" my-3">
+              <a class="nav-link text-white text-center" [routerLink]="['/Register']">¿No tienes cuenta? Registrarse</a>
+            </div>
+
+            <div class="my-3">
+              <button class="btn btn-info text-black btn-lg btn-block login-button" [routerLink]="['/List-merchants']" type="submit"
+               ><span class="text-white">Iniciar</span></button>
+            </div>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>

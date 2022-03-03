@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.navbar{
+    background-color: #1D1D1D;
+            }
+          /* Carousel styling */
+          #introCarousel,
+          .carousel-inner,
+          .carousel-item,
+          .carousel-item.active {
+            height: 100vh;
+          }
+
+          .carousel-item:nth-child(1) {
+            background-image: url('../../../assets/images/carrusel-1.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+          }
+
+          .carousel-item:nth-child(2) {
+            background-image: url('../../../assets/images/carrusel-2.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+          }
+
+          .carousel-item:nth-child(3) {
+            background-image: url('../../../assets/images/carrusel-3.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+          }
