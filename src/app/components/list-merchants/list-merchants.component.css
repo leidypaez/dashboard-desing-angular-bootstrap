@@ -1,0 +1,234 @@
+.ubication {
+  position: absolute;
+  left: 20%;
+  top: 30px;
+  border-radius: 40px;
+}
+
+div.ubication {
+  width: 78%;
+  height: 55%;
+  background-image: url(../../../assets/images/Tu-ubicacion-aqui!.png);
+  border-radius:50px;
+}
+
+.ubication:hover {
+  box-shadow: 1px 10px 38px #000;
+}
+.ubication-input {
+  position: relative;
+  padding: 10px 80px 10px 80px;
+  left: 100px;
+  top: 210px;
+  border-radius: 15px;
+  border: none;
+}
+
+.img-icon {
+  position: absolute;
+  top: 217px;
+  left: 140px;
+}
+
+.text-mercader {
+  position: absolute;
+  left: 25%;
+  top: 70%;
+}
+
+.text-mercader-btn {
+  top: 70%;
+  position: absolute;
+  left: 80%;
+  border: none;
+  background-color: #7763d0;
+  padding: 5px 60px 5px 60px;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.fild-search {
+  position: absolute;
+  justify-content: space-evenly;
+  display: flex;
+  top: 85%;
+  left: 25%;
+}
+
+.form-fild {
+  background-color: #EDECEC;
+  border: none;
+  padding: 10px 40px 10px 40px;
+}
+
+.form-search {
+  background-color: #EDECEC;
+  border: none;
+  padding: 10px 40px 10px 40px;
+}
+
+
+.only-table {
+  position: absolute;
+  left: 25%;
+  top: 95%;
+}
+
+
+
+/* tabla */
+
+.icon {
+  position: absolute;
+  right: 10px;
+  top: 05px;
+}
+.material-icon {
+  font-size: 16px;
+}
+
+.datatable-container {
+  background-color: #EDECEC;
+  border-radius: 3px ;
+  color: rgb(34, 34, 34);
+  width: 900px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+.datatable-container .header-tools {
+  border-bottom:  solid 1px #EDECEC;
+  padding: 12px;
+  display: flex;
+  align-items: baseline;
+}
+
+/* .datatable-container .header-tools .searchs {
+  width: 30%;
+}
+
+.datatable-container .header-tools .searchs .search-input {
+  width: 100%;
+  background-color: #a5a5a5;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: solid 1px #a5a5a5;
+  color: #fffefe;
+} */
+
+
+.datatable-container .header-tools .tools {
+  width: 70%;
+}
+
+.datatable-container .header-tools .tools ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+}
+
+.datatable-container .header-tools .tools ul li {
+  display: inline-block;
+  margin:  0 rgb(22, 138, 153);
+  align-items: baseline;
+}
+
+.datatable-container .footer-tools {
+  padding: 12px;
+  display: flex;
+  align-items: baseline;
+}
+
+.datatable-container .footer-tools .list-items {
+  width: 50%;
+}
+
+.datatable-container .footer-tools .pages {
+  margin-left: auto;
+  margin-right: 0;
+  width: 50%;
+}
+.datatable-container .footer-tools .pages ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+
+.datatable-container .footer-tools .pages ul li {
+  display: inline-block;
+  margin: 0 rgb(243, 241, 242);
+}
+
+.datatable-container .footer-tools .pages ul li button,
+.datatable-container .header-tools .tools ul li button {
+  color: rgb(28, 29, 29);
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.datatable-container .footer-tools .pages ul li button:hover,
+.datatable-container .header-tools .tools ul li button:hover {
+  background-color: #8f80df;
+  color: rgb(29, 28, 28);
+}
+
+.datatable-container .footer-tools .pages ul li span.active {
+  background-color: #7f6eca;
+  border-radius:3px ;
+}
+
+.datatable-container .footer-tools .pages ul li button,
+.datatable-container .footer-tools .pages ul li span,
+.datatable-container .header-tools .pages ul li button {
+  padding: 12px;
+}
+
+.datatable-container .datatable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.datatable-container .datatable,
+.datatable-container .datatable th ,
+.datatable-container .datatable td {
+  padding: 12px;
+}
+
+.datatable-container .datatable th {
+  font-weight: bolder;
+  text-align: left;
+  border-bottom:  solid 1px #a4a7a7;
+}
+
+.datatable-container .datatable td {
+  border-bottom:  solid 1px #d1d6d2;
+}
+
+.datatable-container .datatable tbody tr:nth-child(even){
+  background-color: #d4d1e2;
+}
+
+.datatable-container .datatable tbody tr:hover{
+  background-color: rgb(150, 131, 233);
+}
+
+/* boton habilitado */
+
+.btn-table {
+  background-color: #71CDEA;
+  border: none;
+  border-radius: 50px;
+  padding: 0px 10px 0px 15px;
+}
